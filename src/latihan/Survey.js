@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import RandomHadiah from "./random"
 
 
+// kali ini kita akan menstore data ke firebase,
+
 var firebase = require('firebase')
 var uuid = require('uuid')
 
