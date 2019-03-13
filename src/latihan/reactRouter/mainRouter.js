@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Survey from "../Survey"
-
+import RandomHadiah from '../random'
 const MainRouter = () => {
     return(
         <Router>
@@ -25,7 +25,7 @@ const MainRouter = () => {
 
             <Route exact path="/" component={Home} />
             <Route  path="/about" component={Survey} />
-            <Route  path="/topic" component={Topic} />
+            <Route  path="/topic" component={RandomHadiah} />
 
             </div>
         </Router>

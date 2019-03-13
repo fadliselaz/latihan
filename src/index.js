@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import store from "./latihan/redux/store"
+import { ramalan } from "./latihan/redux/action"
+
+window.store = store
+window.ramalan = ramalan
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

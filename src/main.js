@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Survey from "./latihan/Survey"
+import MainRouter from "./latihan/reactRouter/mainRouter"
 
 class Main extends Component{
     constructor(){
@@ -11,7 +12,7 @@ class Main extends Component{
     render(){
         return(
             <div>
-                <Survey />
+                <MainRouter />
             </div>
         )
     }
