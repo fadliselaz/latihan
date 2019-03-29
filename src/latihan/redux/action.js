@@ -1,9 +1,9 @@
-import { RAMAL } from "./action-types"
+import { ADD_TEXT } from "./action-types"
 
-export function ramalan(payload){
-    return {
-        type: "RAMAL",
-        payload
+
+export function addText(payload){
+    return{
+        type: ADD_TEXT, payload
     }
 }
 

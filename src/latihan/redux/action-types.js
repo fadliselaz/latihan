@@ -1,2 +1,2 @@
 
-export const RAMAL = "RAMAL"
+const ADD_TEXT = "ADD_TEXT"

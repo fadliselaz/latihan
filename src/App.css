@@ -125,3 +125,10 @@
 li {
   list-style-type: none;
 }
+
+.rd{
+  background-color: aliceblue;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+}
