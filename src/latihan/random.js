@@ -87,7 +87,7 @@ class RandomHadiah extends Component {
 
                 </div>
 
-                <div>
+                <div class="waiting">
                     <LogoArtace ds={this.state.display} ref="artace"/>
                 </div>
 

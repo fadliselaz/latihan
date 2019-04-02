@@ -15,7 +15,7 @@ class App extends Component {
 
         <div className="App">
           <div class="App-header">
-            <Axi />
+          <RandomHadiah />
           </div>
           
         </div>

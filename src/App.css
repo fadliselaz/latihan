@@ -63,6 +63,7 @@
 
 .cardDapat {
   width: 100%;
+  position: absolute;
   display: none;
   text-align: center;
   min-height: 100vh;
@@ -104,10 +105,10 @@
   min-height: 100vh;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: rgb(110, 110, 110);
-  margin-top: 0;
+  margin-top: 30%;
 }
 
 .formInput{
@@ -131,4 +132,16 @@ li {
   width: 300px;
   margin: 20px;
   padding: 10px;
+}
+
+.waiting {
+  display: flex;
+  width: 100%;
+
+
+}
+
+body {
+  background-color: #ffee00;
+
 }
